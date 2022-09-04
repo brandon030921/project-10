@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+body{
+    background-image: url("retro-living-room-interior-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px 0px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 80px;
+    font-size: 130%;
+}
+
+.phone-img{
+    height:40px;
+    margin-top: 5px;
+
+}
+
+.phone-container{
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+}
+
+nav span{
+    height: 1px;
+    width: 78%;
+    position: absolute;
+    background-color: #fff;
+    right: 0px;
+    top: 70px;
+}
+
+
+.content{
+    margin-left: 4%;
+    margin-top: 10%;
+    position: relative;
+}
+
+.content h1{
+    font-weight: 700;
+    font-size: 450%;
+}
+
+.content button{
+    padding: 10px 15px;
+    border-radius: 40px;
+    font-size: 170%;
+    background: transparent;
+    border: 5px solid #fff ;
+    margin-top: 70px;
+}
+
+.box1{
+    position: absolute;
+    background-color: rgb(108, 122, 137,0.3);
+    height: 200px;
+    width: 400px;
+    right: 200px;
+    top: -80px;
+}
+
+.box1 img{
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.container{
+    width: 90px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 40px;
+    margin: 20px 20px
+}
+
+.content h3{
+    font-size: 130%;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.box2{
+    position: absolute;
+    background-color: rgb(108, 122, 137,0.3);
+    height: 200px;
+    width: 400px;
+    right: 500px;
+    bottom: -130px;
+}
+
+.box2 img{
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.line1, .line2, .circle1, .circle2{
+    position: absolute;
+    background-color: #fff;
+}
+
+.line1{
+    width:1px;
+    height: 100px;
+    right:400px;
+    top: 120px;
+
+}
+
+.line2{
+    height: 1px;
+    width: 100px;
+    right: 400px;
+    bottom: -40px;
+}
+
+.circle2{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    right: 380px;
+    bottom: -50px;
+
+}
+
+.circle1{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    right: 388px;
+    bottom: 110px;
+}
+
+@media screen and (max-width:600px){
+    nav ul{
+        display: none;
+    }
+
+    .box1{
+        display: none;
+    }
+
+    .box2{
+        display: none;
+    }
+
+    .circle1{
+        display: none;
+    }
+
+    .circle2{
+        display: none;
+    }
+
+    .line1{
+        display: none;
+    }
+
+    .line2{
+        display: none;
+    }
+
+    .content h1{
+        font-size: 300%;
+        margin-top: 30%;
+    }
+
+    nav span{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:492px){
+    .phone-container{
+        display: none;
+    }
+}
